@@ -2,9 +2,6 @@ const midtransClient = require("midtrans-client");
 // const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
-const stripe = require("stripe")(
-  "sk_test_51IFw7fAKURyialn8lDZ7CVoa9GDDyYB3BiaeahylXtkIxXwwUB21WZXNUtcIxC5ZCpgCx64LDABt5erhWG9NU4zH00HAXxK6Pm"
-);
 let port = process.env.PORT || 5001;
 const app = express();
 //Middlewares
